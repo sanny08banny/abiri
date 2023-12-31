@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MapsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pick_up_lt"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="10sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="?attr/imageButtonStyle"
+            android:text="Pick-up"/>
+
+    <EditText
+        android:id="@+id/pickupLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Location"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginHorizontal="8dp"
+        android:background="@drawable/custom_edittext_background"
+        android:drawablePadding="8dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/destinationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_below="@id/pick_up_lt"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:background="@drawable/custom_edittext_background"
+        android:drawablePadding="8dp" />
+
+    <ListView
+        android:id="@+id/locationListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@id/destinationEditText"
+        android:visibility="gone" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/locationListView" />
+    <include
+        android:id="@+id/progress_lt"
+        layout="@layout/progress_lt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="16dp"
+        android:visibility="gone"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

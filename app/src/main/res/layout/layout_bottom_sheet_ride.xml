@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/top_corners_shape"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please wait for driver to arrive at the pick-up point"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/make_call_bg"
+            android:layout_marginStart="16dp"
+            android:padding="10dp"
+            android:src="@drawable/baseline_call_32"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/call_driver"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/call_button"
+            android:backgroundTint="@color/blue"
+            android:layout_marginStart="8dp"
+            app:cornerRadius="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/call_driver"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/material_dynamic_neutral100"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="CALL DRIVER"/>
+    </RelativeLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_pick_up"
+        android:background="@drawable/make_call_bg"
+        android:layout_marginHorizontal="8dp"
+        app:cornerRadius="8dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="?attr/imageButtonStyle"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="CHANGE PICK-UP"/>
+
+</LinearLayout>

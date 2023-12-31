@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "922289955998",
+    "project_id": "naturaw-64116",
+    "storage_bucket": "naturaw-64116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922289955998:android:88486a72653aa96eb7878f",
+        "android_client_info": {
+          "package_name": "com.example.carapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922289955998-l27e75rqokhkivqufocp0eatnn72ia81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQKEXbMdEPcoaLNOgjRH63Q4TZrwptcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922289955998-l27e75rqokhkivqufocp0eatnn72ia81.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922289955998-97vok7lkac508g48ldc3id9r3lc5r7or.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.naturaw.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922289955998:android:152a58bad4affcbfb7878f",
+        "android_client_info": {
+          "package_name": "com.example.naturaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922289955998-l27e75rqokhkivqufocp0eatnn72ia81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQKEXbMdEPcoaLNOgjRH63Q4TZrwptcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922289955998-l27e75rqokhkivqufocp0eatnn72ia81.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922289955998-97vok7lkac508g48ldc3id9r3lc5r7or.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.naturaw.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CarApp" parent="Theme.Material3.DynamicColors.Dark">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#80000000</item>
+        <item name="imageButtonStyle">@color/white</item>
+        <item name="backgroundColor">@color/black</item>
+        <item name="customColorValue">@color/transparent_black</item>
+        <item name="android:fontFamily">@font/roboto_mono</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_ip"
+        app:icon="@drawable/baseline_view_timeline_24"
+        android:title="Change Ip address" />
+<!--    <item-->
+<!--        android:id="@+id/menu_toggle_availability"-->
+<!--        android:title="Toggle Availability"-->
+<!--        android:checkable="true" />-->
+</menu>

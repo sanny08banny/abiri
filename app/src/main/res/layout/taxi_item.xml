@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:background="@drawable/linear_lt_bg"
+    android:layout_marginHorizontal="4dp"
+    android:padding="4dp"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/comment_profile_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_weight="0"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_directions_car_24" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/taxi_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:maxLines="1"
+            android:text="Economy"
+            android:textSize="24sp"
+            android:fontFamily="@font/jost_semibold"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="10.37 km"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="4dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ksh 700"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:id="@+id/price"/>
+    </RelativeLayout>
+</LinearLayout>
+</layout>

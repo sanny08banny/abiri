@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:padding="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Location Details -->
+    <TextView
+        android:id="@+id/textViewLocationDetails"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Go Here Button -->
+    <Button
+        android:id="@+id/buttonGoHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Here"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
